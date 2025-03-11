@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+/* Header and Footer CSS */
+.footer-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+  color: #facc15; /* Yellow hover effect */
+  text-decoration: underline;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.social-icon svg {
+  color: white;
+  font-size: 20px;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  background: #facc15; /* Yellow hover effect */
+}
+
+.social-icon:hover svg {
+  color: black;
+}
+
+
+/* Desktop Navigation */
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #facc15; /* Yellow hover effect */
+}
+
+/* Mobile Navigation */
+.mobile-nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  padding: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.mobile-nav-link:hover {
+  color: #facc15; /* Yellow hover effect */
+  text-decoration: underline;
+}
